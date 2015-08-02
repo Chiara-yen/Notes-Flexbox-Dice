@@ -46,3 +46,6 @@ Page 9: Dice Example: Five
 
 Page 10: Dice Example: Six
 ---
+
+
+Reference: [http://codepen.io/LandonSchropp/pen/KpzzGo](http://codepen.io/LandonSchropp/pen/KpzzGo)
