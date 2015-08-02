@@ -1,52 +1,39 @@
-<!-- Page 1 -->
-<section data-markdown>
-	<script type="text/template">
+#Page 1
+---
 		## What Flexbox is?
 
 		- A new CSS layout system that makes it easy to build dynamic layouts. 						
-	</script>
-</section>
 
 
-<!-- Page 2 -->
-<section data-markdown>
-	<script type="text/template">
+#Page 2
+---
 		## Why use Flexbox?
 
 		- Vertical centering
 		- Reordering								
 		- Allow we do not use float or table anymore 
-	</script>
-</section>
 
 
-<!-- Page 3 -->
-<section data-markdown>
-	<script type="text/template">
+#Page 3
+---
 		## When can i use Flexbox?
 		
 		- Now!
 		- Now has supportted almost 94% browsers [http://caniuse.com/#search=flex](http://caniuse.com/#search=flex)
-	</script>
-</section>
 
 
-<!-- Page 4 -->
-<section data-markdown>
-	<script type="text/template">
+#Page 4
+---
 		### How to use Flexbox?
 		
 		- Let's make a simple example to use it!
 		
 		![dices](./assets/all-faces.png)
-	</script>
-</section>
 
-<!-- Page 5: Dice One -->
-<section>
-	<!-- 5-1 -->
-	<section data-markdown>
-		<script type="text/template">
+#Page 5: Dice One
+---
+##5-1
+---
 			###Dice: One
 
 			![dices](./assets/face-1-1.png)
@@ -56,12 +43,9 @@
 				  <span class="dot"></span>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 5-2 -->
-	<section data-markdown>
-		<script type="text/template">
+##5-2
+---
 			###justify-content: center
 
 			![dices](./assets/face-1-2.png)
@@ -73,12 +57,9 @@
 				  justify-content: center;
 				}
 			```
-		</script>
-	</section>
 
-	<!-- 5-3 -->
-	<section data-markdown>
-		<script type="text/template">
+##5-3
+---
 			###align-items: center
 
 			![dices](./assets/face-1-3.png)
@@ -92,15 +73,10 @@
 				  align-items: center;
 				}
 			```
-		</script>
-	</section>
-</section>
-
-<!-- Page 6: Dice Two -->
-<section>
-	<!-- 6-1 -->
-	<section data-markdown>
-		<script type="text/template">
+#Page 6: Dice Two
+---
+##6-1
+---
 			###Dice: Two
 
 			![dices](./assets/face-2-1.png)
@@ -111,12 +87,9 @@
 				  <span class="dot"></span>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 6-2 -->
-	<section data-markdown>
-		<script type="text/template">
+##6-2
+---
 			###justify-content: space-between
 
 			![dices](./assets/face-2-2.png)
@@ -127,12 +100,9 @@
 				  justify-content: space-between;
 				}
 			```
-		</script>
-	</section>
 
-	<!-- 6-3 -->
-	<section data-markdown>
-		<script type="text/template">
+##6-3
+---
 			###align-self: flex-end
 
 			![dices](./assets/face-2-3.png)
@@ -147,15 +117,10 @@
 				  align-self: flex-end;
 				}
 			```
-		</script>
-	</section>
-</section>
-
-<!-- Page 7: Dice Three -->
-<section>
-	<!-- 7-1 -->
-	<section data-markdown>
-		<script type="text/template">
+#Page 7: Dice Three
+---
+##7-1
+---
 			###Dice: Three
 
 			![dices](./assets/face-3-1.png)
@@ -167,12 +132,9 @@
 				  <span class="dot"></span>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 7-2 -->
-	<section data-markdown>
-		<script type="text/template">
+##7-2
+---
 			###align-self: center
 
 			![dices](./assets/face-3-2.png)
@@ -187,12 +149,9 @@
 				  align-self: center;
 				}
 			```
-		</script>
-	</section>
 
-	<!-- 7-3 -->
-	<section data-markdown>
-		<script type="text/template">
+##7-3
+---
 			###align-self: flex-end
 
 			![dices](./assets/face-3-3.png)
@@ -211,15 +170,10 @@
 				  align-self: flex-end;
 				}
 			```
-		</script>
-	</section>
-</section>
-
-<!-- Page 8: Dice Four -->
-<section>
-	<!-- 8-1 -->
-	<section data-markdown>
-		<script type="text/template">
+#Page 8: Dice Four
+---
+##8-1
+---
 			###Dice: Four
 
 			![dices](./assets/face-4-1.png)
@@ -236,12 +190,9 @@
 					</div>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 8-2 -->
-	<section data-markdown>
-		<script type="text/template">
+##8-2
+---
 			###justify-content: space-between
 
 			![dices](./assets/face-4-2.png)
@@ -252,12 +203,9 @@
 				  justify-content: space-between;
 				}
 			```
-		</script>
-	</section>
 
-	<!-- 8-2-alert -->
-	<section data-markdown>
-		<script type="text/template">
+##8-2-alert
+---
 			###highlight face-column
 
 			![dices](./assets/face-4-2-alert.png)
@@ -274,12 +222,9 @@
 					</div>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 8-3-alert -->
-	<section data-markdown>
-		<script type="text/template">
+##8-3-alert
+---
 			###nested flexbox
 
 			![dices](./assets/face-4-3-alert.png)
@@ -297,12 +242,9 @@
 				  */
 				}
 			```
-		</script>
-	</section>
 
-	<!-- 8-4 -->
-	<section data-markdown>
-		<script type="text/template">
+##8-4
+---
 			###nested flexbox
 
 			![dices](./assets/face-4-3.png)
@@ -319,15 +261,10 @@
 				  justify-content: space-between; 
 				}
 			```
-		</script>
-	</section>
-</section>
-
-<!-- Page 9: Dice Five -->
-<section>
-	<!-- 9-1 -->
-	<section data-markdown>
-		<script type="text/template">
+#Page 9: Dice Five
+---
+##9-1
+---
 			###Dice: Five
 
 			![dices](./assets/face-5-1.png)
@@ -347,12 +284,9 @@
 				  </div>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 9-2 -->
-	<section data-markdown>
-		<script type="text/template">
+##9-2
+---
 			###Dice: Five
 
 			![dices](./assets/face-5-2.png)
@@ -369,12 +303,9 @@
 				  justify-content: space-between;
 				}
 			```
-		</script>
-	</section>
 
-	<!-- 9-3 -->
-	<section data-markdown>
-		<script type="text/template">
+##9-3
+---
 			###Dice: Five
 
 			![dices](./assets/face-5-3.png)
@@ -395,15 +326,10 @@
 				  justify-content: center;
 				}
 			```
-		</script>
-	</section>
-</section>
-
-<!-- Page 10: Dice Six -->
-<section>
-	<!-- 10-1 -->
-	<section data-markdown>
-		<script type="text/template">
+#Page 10: Dice Six
+---
+##10-1
+---
 			###Dice: Six
 
 			![dices](./assets/face-6-1.png)
@@ -422,12 +348,9 @@
 				  </div>
 				</div>
 			```
-		</script>
-	</section>
 
-	<!-- 10-2 -->
-	<section data-markdown>
-		<script type="text/template">
+##10-2
+---
 			###Dice: Six
 
 			![dices](./assets/face-6-2.png)
@@ -444,6 +367,3 @@
 				  justify-content: space-between;
 				}
 			```
-		</script>
-	</section>
-</section>
